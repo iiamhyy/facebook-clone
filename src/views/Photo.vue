@@ -19,60 +19,60 @@
 			</div>
 			</a>
 		</div>
-		<div class="grid gap-2 grid-cols-6">
+		<div class="grid gap-2 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3">
 			<div class="">
-        <img src="../assets/images/p-1.jpg" alt="" class=" img-detail object-fill rounded-lg">
+        <img src="../assets/images/p-1.jpg" alt="" class=" img-detail object-cover rounded-lg">
       </div>
       <div class="">
-        <img src="../assets/images/p-2.jpg" alt="" class=" img-detail object-fill rounded-lg">
+        <img src="../assets/images/p-2.jpg" alt="" class=" img-detail object-cover rounded-lg">
       </div>
       <div>
-      	<img src="../assets/images/p-3.jpg" alt="" class="object-fill img-detail rounded-lg">
+      	<img src="../assets/images/p-3.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-4.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-4.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-5.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-5.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-6.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-6.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-7.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-7.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-8.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-8.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-9.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-9.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
 			<div class="">
-        <img src="../assets/images/p-1.jpg" alt="" class=" img-detail object-fill rounded-lg">
+        <img src="../assets/images/p-1.jpg" alt="" class=" img-detail object-cover rounded-lg">
       </div>
       <div class="">
-        <img src="../assets/images/p-2.jpg" alt="" class=" img-detail object-fill rounded-lg">
+        <img src="../assets/images/p-2.jpg" alt="" class=" img-detail object-cover rounded-lg">
       </div>
       <div>
-      	<img src="../assets/images/p-3.jpg" alt="" class="object-fill img-detail rounded-lg">
+      	<img src="../assets/images/p-3.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-4.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-4.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-5.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-5.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-6.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-6.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-7.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-7.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-8.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-8.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
       <div>
-        <img src="../assets/images/p-9.jpg" alt="" class="object-fill img-detail rounded-lg">
+        <img src="../assets/images/p-9.jpg" alt="" class="object-cover img-detail rounded-lg">
       </div>
 		</div>
 	</the-wrapper>

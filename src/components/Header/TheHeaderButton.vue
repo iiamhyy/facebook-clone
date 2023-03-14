@@ -4,9 +4,8 @@
     class= "flex
     items-center
     justify-center
-    hover:bg-gray-700
+    hover:bg-button
     cursor-pointer"
-    :class="customCSS"
     :style="{flex: flex, gap: gap + 'px',width: checkWidth ? width + '%' : width + 'px', height: height + 'px', backgroundColor: background, borderRadius: checkBorderRadius ? borderRadius + 'px' : borderRadius + '%', maxWidth: maxWidth + 'px', paddingRight: paddingRight + 'px', paddingBottom: paddingBottom + 'px', paddingTop: paddingTop + 'px', paddingLeft: paddingLeft + 'px', position: position, backgroundImage: backgroundImage}"
   >
     <img :src="icon" alt="">
@@ -48,9 +47,7 @@ export default {
     backgroundImages: Function
   },
   methods:{
-    customCSS(){
 
-    }
   },
   components: {
     SvgIcon,
@@ -58,3 +55,5 @@ export default {
   },
 };
 </script>
+<style scoped>
+</style>

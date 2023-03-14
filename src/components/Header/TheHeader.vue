@@ -4,7 +4,7 @@
       <img src="../../assets/icons/facebook.svg" alt="" class="h-[40px]">
       <div class="relative flex justify-center items-center">
         <img src="../../assets/icons/search.svg" class="absolute left-1 w-[20px] h-[20px]"/>
-        <input type="text" placeholder="Tìm kiếm trên Facebook" class="search-input w-[280px] h-[40px]  border-transparent rounded-[20px] bg-[#3A3B3C] pl-[30px]" >
+        <input type="text" placeholder="Tìm kiếm trên Facebook" class="search-input w-[280px] h-[40px]  border-transparent rounded-[20px] bg-[#3A3B3C] pl-[30px] lg:flex md:hidden sm:hidden" >
       </div>
       
     </div>

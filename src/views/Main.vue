@@ -17,9 +17,8 @@
             />
             </div>
           </the-wrapper>
-          <list-post></list-post>
-          <list-post></list-post>
-          <list-post></list-post>
+          <list-post v-for="post in post" :key="post.id"
+          :post="post" />
         </div>
 
 </template>
@@ -33,16 +32,18 @@ import TheHeaderButton from '../components/Header/TheHeaderButton.vue';
 import TheHeader from '../components/Header/TheHeader.vue';
 import AppSide from '../components/Side/AppSide.vue';
 import SettingSlider from '../assets/icons/settings-sliders.svg'
-import ListPosts from '../post.json'
 
 export default {
   name: 'main',
 	data () {
 		return {
       settingSlider: SettingSlider,
-      listPosts: ListPosts,
+
 		}
 	},	
+  props: {
+    post: Array
+  },
 	components: {
 		ListPost,
     IntroductionItem,

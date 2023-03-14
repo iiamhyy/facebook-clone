@@ -1,6 +1,6 @@
 <template>
-          <div class="w-full  max-w-side ">
-          <div class="flex sticky top-[56px] flex-col top- w-full max-w-side gap-4 content">
+          <div class="w-full  max-w-side md:max-w-[685px] md:w-full sm:max-w-full">
+          <div class="flex sticky top-[56px] flex-col top- w-full max-w-side gap-4 content md:max-w-[685px] md:w-full sm:max-w-full">
             <div id="introduction" >
               <the-wrapper :gap = "15">
                 <h2 class="text-xl font-bold">Giới thiệu</h2>
@@ -75,31 +75,31 @@
                 </div>
                 <div class="grid grid-cols-3 gap-1 my-3">
                   <div class="grow">
-                    <img src="../../assets/images/p-1.jpg" alt="" class=" img-detail object-fill rounded-tl-lg">
+                    <img src="../../assets/images/p-1.jpg" alt="" class=" img-detail object-cover rounded-tl-lg">
                   </div>
                   <div class="grow">
-                    <img src="../../assets/images/p-2.jpg" alt="" class=" img-detail object-fill">
+                    <img src="../../assets/images/p-2.jpg" alt="" class=" img-detail object-cover">
                   </div>
                   <div>
-                    <img src="../../assets/images/p-3.jpg" alt="" class="object-fill img-detail rounded-tr-lg">
+                    <img src="../../assets/images/p-3.jpg" alt="" class="object-cover img-detail rounded-tr-lg">
                   </div>
                   <div>
-                    <img src="../../assets/images/p-4.jpg" alt="" class="object-fill img-detail">
+                    <img src="../../assets/images/p-4.jpg" alt="" class="object-cover img-detail">
                   </div>
                   <div>
-                    <img src="../../assets/images/p-5.jpg" alt="" class="object-fill img-detail">
+                    <img src="../../assets/images/p-5.jpg" alt="" class="object-cover img-detail">
                   </div>
                   <div>
-                    <img src="../../assets/images/p-6.jpg" alt="" class="object-fill img-detail">
+                    <img src="../../assets/images/p-6.jpg" alt="" class="object-cover img-detail">
                   </div>
                   <div>
-                    <img src="../../assets/images/p-7.jpg" alt="" class="object-fill img-detail rounded-bl-lg">
+                    <img src="../../assets/images/p-7.jpg" alt="" class="object-cover img-detail rounded-bl-lg">
                   </div>
                   <div>
-                    <img src="../../assets/images/p-8.jpg" alt="" class="object-fill img-detail">
+                    <img src="../../assets/images/p-8.jpg" alt="" class="object-cover img-detail">
                   </div>
                   <div>
-                    <img src="../../assets/images/p-9.jpg" alt="" class="object-fill img-detail rounded-br-lg">
+                    <img src="../../assets/images/p-9.jpg" alt="" class="object-cover img-detail rounded-br-lg">
                   </div>
 
                 </div>
@@ -107,10 +107,10 @@
             </div>
 
             <div>
-              <a href="#">Quyền riêng tư</a>
-              <a href="#">Điều khoản</a>
-              <a href="#">Quảng cáo</a>
-              <a href="#">Lựa chọn quảng cáo</a>
+              <a class="text-sm text-secondary mr-2" href="#">Quyền riêng tư</a>
+              <a class="text-sm text-secondary mr-2" href="#">Điều khoản</a>
+              <a class="text-sm text-secondary mr-2" href="#">Quảng cáo</a>
+              <a class="text-sm text-secondary mr-2" href="#">Lựa chọn quảng cáo</a>
             </div>
           </div>
         </div>

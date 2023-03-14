@@ -2,34 +2,34 @@
   <the-header/>
   <div class="flex flex-col">
     <div class=" flex justify-center bg-gradient-to-b from-white to-black  max-h-[520px]">
-      <div class="max-w-[1250px] w-full rounded-md max-h-[520px] h-full ">
-          <img src="./assets/images/cover-image.png" alt="" class="w-full h-full object-contain rounded-xl ">
+      <div class="max-w-[1250px] w-full  max-h-[520px] h-full rounded-lg ">
+          <img src="./assets/images/cover-image.png" alt="" class="w-full h-full object-cover rounded-xl ">
       </div>
     </div>
     <div class="flex bg-wrapper-color flex-col">
       <div class="flex justify-center mx-16p z-9">
-        <div class="w-full flex  max-w-max-content justify-between">
-          <div class="flex gap-3">
+        <div class="w-full flex  max-w-max-content lg:justify-between lg:flex-row md:flex-col md:items-center sm:flex-col sm:items-center ">
+          <div class="flex lg:gap-3 lg:flex-row lg:justify-start md:flex-col md:gap-1 md:items-center sm:flex-col sm:gap-1 sm:items-center">
             <div class="relative w-[168px] h-[168px]">
               <div class="absolute top-[-30px] left-0">
                 <img src="./assets/images/qkit.png" alt="" class="w-[168px] h-[168px] rounded-[50%] border-4 border-[#242526]">
               </div>
             </div>
-            <div class="flex flex-col mt-[32px] mb-[16px] gap-2 ">
+            <div class="flex flex-col lg:items-start lg:mt-[32px] lg:mb-[16px] gap-2 md:mt-[0px] md:relative md:top-[-20px] md:items-center sm:mt-[0px] sm:relative sm:top-[-20px] sm:items-center">
               <h1 class="text-3xl font-bold">QKIT Software</h1>
               <div class="flex gap-2">
                 <p>63 lượt thích</p>
                 <p> • </p>
                 <p>68 người theo dõi</p>
               </div>
-              <div class="flex relative">
+              <div class="flex relative md:left-[-16%] sm:left-[-16%] lg:left-0 ">
                 <img src="./assets/images/avt-1.jpg" alt="" class="w-[40px] h-[40px] rounded-[50%] z-4  border-2 border-wrapper-color">
                 <img src="./assets/images/avt-2.jpg" alt="" class="w-[40px] h-[40px] rounded-[50%] z-2 left-[30px] absolute  border-2 border-wrapper-color">
                 <img src="./assets/images/avt-3.jpg" alt="" class="w-[40px] h-[40px] rounded-[50%] z-0 absolute left-[60px]  border-2 border-wrapper-color">
               </div>
             </div>
           </div>
-          <div class="flex gap-2 mt-[32px] mb-[16px] items-end">
+          <div class="flex gap-2 lg:mt-[100px] lg:mb-[16px] lg:items-end lg:bottom-0 md:mt-[0px] md:relative md:top-[-10px] md:mb-0 sm:mt-[0px] sm:relative sm:top-[-10px] sm:mb-0">
 
               <TheHeaderButton 
               :height = "auto"
@@ -108,13 +108,13 @@
               
                 <div 
                 @click="ItemChecked(4)"
-                class="tab-item rounded p-3 hover:bg-hover">
+                class="tab-item rounded p-3 hover:bg-hover sm:hidden md:inline lg:inline ">
                   <p>Người theo dõi</p>
                 </div>
               
               <div 
               @click="ItemChecked(5)"
-              class="tab-item rounded p-3 hover:bg-hover">
+              class="tab-item rounded p-3 hover:bg-hover sm:hidden md:inline lg:inline ">
                 <p>Ảnh</p>
               </div>
               
@@ -164,10 +164,10 @@
 
     </div>
     <div class="flex  justify-center mt-4">
-      <div class="flex max-w-max-content w-full gap-4 justify-center mx-16p">
+      <div class="flex lg:max-w-max-content w-full gap-4 justify-center lg:mx-16p md:flex-col md:mx-0 md:my-auto md:max-w-[685px] sm:flex-col lg:flex-row sm:mx-16p">
 
 
-    <component :is="currentComponent" />
+    <component :is="currentComponent" :post="post"/>
     </div>
     </div>
     <!-- <Evaluate /> -->
@@ -196,6 +196,8 @@ import Followers from './views/Followers.vue';
 import Photo from './views/Photo.vue';
 import Reminders from './views/Reminders.vue';
 import Introduction from './views/Introduction.vue';
+import PostData from './post.json';
+
 export default {
   name: "app",
   data() {
@@ -207,6 +209,8 @@ export default {
       isOpen: false,
       clicked: false,
       currentComponent: Main,
+      post: PostData
+      
     }
   },
   methods: {
@@ -264,9 +268,7 @@ export default {
     Reminders,
     Introduction
   },
-  props: {
 
-  }
 }
 </script>
 

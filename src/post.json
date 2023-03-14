@@ -1,63 +1,62 @@
-{
-	"name": "QKIT Software",
-	"post": [
+
+[
 
 		{
 	
 			"id": 1,
 			"time": "24 tháng 12, 2022",
 		  "description": "𝗠𝗛𝟳𝗔-𝗥𝗘𝗣𝗢𝗥𝗧 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 Project Management of reports, medical documents, and medical records. As one of the important applications of the medical application ecosystem under Military Hospital 7A. Contributing to the digitization of processes in the hospital, the application provides an intuitive and convenient solution for doctors and medical staff in managing, creating, and editing reports, documents, or patients. With convenience and high security, the application will reduce the user's time and effort, contributing to increasing work efficiency in a pressurized environment such as a hospital. Technologies: Angular, NestJS, Adobe XD Platform: Website See more projects at: https://qkit.vn/en/portfolio DỰ ÁN QUẢN LÝ BÁO CÁO BỆNH VIỆN QUÂN Y 7A Dự án Quản lý báo cáo, tài liệu y khoa và bệnh án. Là một trong những ứng dụng quan trọng của hệ sinh thái ứng dụng y tế trực thuộc Bệnh viện Quân Y 7A. Đóng góp vào việc số hóa quy trình trong bệnh viện, ứng dụng mang lại một giải pháp trực quan, tiện lợi cho các y bác sĩ, nhân viên y tế trong việc quản lý, tạo, chỉnh sửa các báo cáo, tài liệu hay bệnh án. Với sự tiện dụng và độ bảo mật cao, ứng dụng sẽ giảm thiểu thời gian và công sức của người sử dụng, góp phần tăng hiệu quả công việc trong môi trường đầy áp lực như bệnh viện. Công nghệ sử dụng: Angular, NestJS, Adobe XD Nền tảng: Website Xem thêm một số dự án khác tại: https://qkit.vn/vi/portfolio #showcase #project #development #management",
-			"image": "./assets/images/p-1.jpg"
+			"image": "/src/assets/images/p-1.jpg"
 		},
 		{
 			"id": 2,
       "time": "23 tháng 12, 2022",
-			"description": "dự án đấu thầu bệnh viện quân y 7A",
-			"image": "./assets/images/p-2.jpg"
+			"description": "𝗕𝗨𝗗𝗗𝗬 𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 Buddy is a new cannabis ordering app in Canada scheduled to launch in Alberta in mid-March 2019. The app looks to streamline the process of ordering cannabis from a dispensary in Alberta, but it will roll out to the rest of the county afterward. At its base is a list of government-licensed dispensaries you can use to shop from. You can use the app to browse items from a dispensary, pick out what you want and then go into the store to pay for it and pick it up. This makes it sort of like the popular takeout food ordering app Ritual, but for cannabis instead. The main difference is you can pay for your food via the Ritual app, while Buddy requires you to pay for your cannabis in person to prove you’re of legal buying age Platform: Desktop Web Technology: Angular, NodeJS See more projects at: https://qkit.vn/en/portfolio",
+			"image": "/src/assets/images/p-2.jpg"
 		},
 		{
 			"id": 3,
-      "time": "23 tháng 12, 2022",
-      "description": "dự án đấu thầu bệnh viện quân y 7",
-			"image": "./assets/images/p-3.jpg"
+      "time": "9 tháng 12, 2022",
+      "description": "DỰ ÁN ĐẤU THẦU BỆNH VIỆN QUÂN Y 7A Một trong những khách hàng quan trọng của QKIT Software, Bệnh viện Quân Y 7A là một bệnh viện trung tâm, đa khoa tuyến cuối, việc thu dung khám chữa bệnh, ngoài lực lượng vũ trang thì còn có cả diện chính sách, gia đình liệt sĩ, gia đình thương binh, người có công với cách mạng. QKIT Software đã và đang đảm nhiệm cho ra các phần mềm ứng dụng quan trọng trong công cuộc xây dựng cơ sở y tế hiện đại và vẫn đang cùng đồng hành với các dự án của Bệnh viện Quân Y 7A. Mô tả: Hệ thống mua sắm CP điện tử thử nghiệm (7ABIDDING) được xây dựng dựa trên hệ thống đấu thầu thầu điện tử Quốc gia và được tối ưu hóa phù hợp với điều kiện thực tiễn của bệnh viện 7A trong lĩnh vực y tế. Trong giai đoạn thử nghiệm, 7ABIDDING sẽ phát triển hợp phần e-bidding (đấu thầu điện tử). Theo đó, một loạt các quy trình đấu thầu truyền thống dựa trên giấy tờ sẽ được thay thế bằng quy trình tự động hóa trên máy tính như đăng tải kế hoạch đấu thầu, thông báo mời thầu, nộp hồ sơ dự thầu, lập biên bản mở thầu, đăng tải kết quả đấu thầu, kiến nghị trong đấu thầu… Trong giai đoạn thử nghiệm 7ABIDDINGsẽ triển khai 3 hình thức lựa chọn nhà thầu, bao gồm: đấu thầu rộng rãi, đấu thầu hạn chế và chỉ định thầu áp dụng cho các gói thầu tư vấn, sơ tuyển, mua sắm hàng hóa, xây lắp và EPC. Thực hiện vai trò là cửa sổ duy nhất trong mua sắm công, bên mời thầu và nhà thầu chỉ với một lần đăng ký có thể tham gia giao dịch được tất cả các gói thầu trên hệ thống. Ngoài ra, một đặc điểm ưu việt của hệ thống là khả năng bảo mật cao nhờ áp dụng hạ tầng khóa công khai cho phép mã hóa và giải mã dữ liệu (hồ sơ dự thầu) sử dụng cặp khóa chung và khóa riêng (hay khóa bí mật). Bên mời thầu và nhà thầu khi tham gia vào hệ thống, bắt buộc phải đăng ký chứng thực số (CA) – khoá riêng. Khi đăng tải hồ sơ mời thầu, bên mời thầu cũng đồng thời cung cấp khoá chung cho nhà thầu. Nhà thầu lập hồ sơ dự thầu xong sẽ mã hoá hồ sơ dự thầu bằng khoá riêng được cấp ban đầu, và ký bằng khoá chung – được cấp cùng với hồ sơ mời thầu do bên mời thầu tạo ra. Việc ký bằng khoá chung này cho phép bên mời thầu mở được hồ sơ dự thầu (giải mã các hồ sơ dự thầu) với khoá riêng phù hợp (nằm trong cặp khoá chung – khoá riêng của gói thầu đó). Công nghệ: Angular, NodeJS, Socket Nền tảng: Website Xem thêm một số dự án khác tại: https://qkit.vn/vi/portfolio ",
+			"image": "/src/assets/images/p-3.jpg"
 		},
 		{
 			"id": 4,
-      "time": "23 tháng 12, 2022",
-      "description": "dự án đấu thầu bệnh viện quân y 7",
-      "image": "./assets/images/p-4.jpg"
+      "time": "7 tháng 12, 2022",
+      "description": "𝗤𝗟𝗜𝗞 𝗔𝗦𝗧𝗥𝗢𝗡𝗜 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 QLIK Astroni là chuỗi cửa hàng thú cưng, cửa hàng thú cưng, đồ dùng cho chó - đồ dùng cho mèo với nhiều chi nhánh cửa hàng thú cưng chuyên về các bộ sưu tập, quần áo, thức ăn. Thức ăn, sữa tắm, lồng, vòng cổ và phụ kiện cho Chó, Mèo, và cá bể cá. Cùng nhiều bài viết chia sẻ kinh nghiệm chăm sóc Thỏ cảnh, Chuột cảnh, Sóc cảnh, Chim cảnh, và các loài bò sát hàng đầu ở Israel Nền tảng: Ứng dụng di động Công nghệ: Flutter, Adobe XD, NodeJS, PHP Xem thêm các dự án tại: https://qkit.vn/en/portfolio",
+      "image": "/src/assets/images/p-4.jpg"
 		},
 		{
 			"id": 5,
-      "time": "23 tháng 12, 2022",
-      "description": "dự án đấu thầu bệnh viện quân y 7",
-      "image": "./assets/images/p-5"
+      "time": "28 tháng 11, 2022",
+      "description": "𝗛𝗘𝗔𝗟𝗧𝗛 𝗥𝗘𝗖𝗢𝗥𝗗 𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗨𝗡𝗗𝗘𝗥 𝗠𝗜𝗟𝗜𝗧𝗔𝗥𝗬 𝗛𝗢𝗦𝗣𝗜𝗧𝗔𝗟 𝟳𝗔 One of the important customers of QKIT Software, Military Medical Hospital 7A is a central hospital, a general hospital at the last line, collecting medical examination and treatment services, in addition to the armed forces, there are also policy areas and families of martyrs, war invalids' families, and people with meritorious services to the revolution, with a specified number of 400 beds, as a basis for scientific research, medical assessment, line direction, and practice for military medical schools team, as a reserve force for the Military Region, ready for offline emergencies and any other unexpected tasks. QKIT Software has been responsible for producing important application software in the construction of modern medical facilities and is still accompanying the projects of Military Hospital 7A. Description: A medical application that integrates technology into health management, a tool to bring patients closer to doctors. Developed on a mobile platform to bring convenience to users Technology: Angular, ReactJS, Socket.io, Flutter, Python, NodeJS, WebKit, BootstrapCSS Platform: Android, IOS See more projects at: https://qkit.vn/en/portfolio",
+      "image": "/src/assets/images/p-5.jpg"
 		},
 		{
 			"id": 6,
       "time": "23 tháng 12, 2022",
-      "description": "dự án đấu thầu bệnh viện quân y 7",
-      "image": "./assets/images/p-6"
+      "description": "𝗖𝗟𝗨𝗕𝗩 . 𝗖𝗟𝗨𝗕 𝗨𝗧𝗜𝗟𝗜𝗧𝗬 𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 Description: A customer support application for internal use in Casino. Allows users to redeem, order, and use Casio's facilities. The utility project supports customers, allowing them to order food and drinks online. Track your order status real time and redeem your rewards through the points mechanism. Manage user information. Technology: VueJS, NuxtJS, NestJS, Socket.io, Docker, Java Android, IOS, PostgreSQL, TailwindCSS Platform: Web, Mobile App See more projects at: https://qkit.vn/vi/portfolio DỰ ÁN ỨNG DỤNG TIỆN ÍCH DÀNH CHO CÂU LẠC BỘ CLUBV Mô tả: Dự án tiện ích hỗ trợ khách hàng, cho phép đặt món ăn và thức uống trực tuyến. Theo dõi tình trạng đơn hàng thời gian thực và đổi thưởng qua cơ chế tích điểm. Quản lý thông tin người dùng. Công nghệ: VueJS, NuxtJS, NestJS, Socket.io, Docker, Java Android, IOS, PostgreSQL, TailwindCSS Nền tảng: Web, Mobile App Xem thêm một số dự án khác tại: https://qkit.vn/vi/portfolio #showcase #project #software #development",
+      "image": "/src/assets/images/p-6.jpg"
 		},
 		{
 			"id": 7,
-      "time": "23 tháng 12, 2022",
-      "description": "dự án đấu thầu bệnh viện quân y 7",
-      "image": "./assets/images/p-7"
+      "time": "24 tháng 11, 2022",
+			"description": "𝗦𝗔𝗣𝗥𝗨𝗟𝗜 . 𝗖𝗛𝗜𝗟𝗗𝗥𝗘𝗡'𝗦 𝗦𝗧𝗢𝗥𝗬𝗧𝗘𝗟𝗟𝗜𝗡𝗚 𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 Children around the world love to hear stories. They want to know more about their favorite characters and often imitate them. If the story comes with a meaningful message, good qualities such as courage, honesty, and intelligence can be engraved in children's heads early on. However, with today's pressures of life, very few parents take the time to do this.  Understanding that, as soon as we received an invitation to collaborate from Sapruli, we - QKIT Software quickly agreed and immediately started researching and developing Sapruli applications. Description: An application developed for children in Israel. This one provides an opportunity for family members to bond with each other through recording and telling children's stories used by grandparents and parents. Technology: Angular, NodeJS, PHP, Java Android, IOS Swift, Socket.io, WebKit, Python, BootstrapCSS Platform: Web, Mobile App",
+      "image": "/src/assets/images/p-7.jpg"
 		},
 		{
 			"id": 8,
-      "time": "23 tháng 12, 2022",
-      "description": "dự án đấu thầu bệnh viện quân y 7",
-      "image": "./assets/images/p-8"
+      "time": "23 tháng 11, 2022",
+			"description": "𝗧𝗛𝗘 𝗦𝗞𝗜𝗟𝗣𝗘 . 𝗢𝗡𝗟𝗜𝗡𝗘 𝗟𝗘𝗔𝗥𝗡𝗜𝗡𝗚 𝗣𝗟𝗔𝗧𝗙𝗢𝗥𝗠 𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 QKIT Software has partnered with Skiple and successfully launched an online learning platform application. The Skilpe online learning platform application project is to provide users with a platform that provides online courses. Online learning application, allowing users to record lectures and create online courses. The platform also allows users to live stream lectures to learners as well as other online functions. Integrate online payment mechanisms into the application. Technology: Angular, ReactJS, Java, C#, PostgreSQL, Socket.io, Python, WebKit, BootstrapCSS, Paypal Platform: Web DỰ ÁN ỨNG DỤNG NỀN TẢNG HỌC TẬP TRỰC TUYẾN SKILPE QKIT Software đã hợp tác với Skiple và thành công cho ra ứng dụng nền tảng học tập trực tuyến.  Dự án ứng dụng nền tảng học tập trực tuyến Skilpe là mang đến cho người dùng một nền tảng cung cấp các khóa học trực tuyến. Ứng dụng học tập trực tuyến, cho phép người dùng thu hình bài giảng và tạo thành các khóa học trực tuyến. Nền tảng cũng cho phép người dùng stream trực tiếp bài giảng cho người theo học cũng như các chức năng trực tuyến khác. Tích hợp cơ chế thanh toán trực tuyến vào ứng dụng. Công nghệ: Angular, ReactJS, Java, C#, PostgreSQL, Socket.io, Python, WebKit, BootstrapCSS, Paypal Nền tảng: Web #project #showcase #Angular #ReactJS #Java",
+      "image": "/src/assets/images/p-8.jpg"
 		},
 		{
 			"id": 9,
       "time": "23 tháng 12, 2022",
-      "description": "dự án đấu thầu bệnh viện quân y 7",
-      "image": "./assets/images/p-9"
+      "description": "",
+      "image": "/src/assets/images/p-9.jpg"
 		}
 
 	]
-}
+
 
